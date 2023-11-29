@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(26, 26, 112);
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    color: white;
+}
+
+header {
+    background-color: red;
+    width: 100%;
+    border: solid 1px  red;
+    height: 31%;
+    width: 100%;
+ 
+    
+}
+
+
+
+
+ h1 {
+    text-align: left;
+    margin-left: 105px;
+    margin-top: 45px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.buscar  {
+    font-size: 15px;
+     float: right;
+     margin-top: 23px;
+     margin-right: 80px;
+     position: relative;
+     
+}
+
+.buscar input {
+    font-size: 15px;
+    padding-right: 30px;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+    outline: none;
+
+
+}
+
+
+   
+
+
+.icone_pesquisa{
+    height: 35px;
+     width: 35px;
+    align-items: center;
+    float: right;
+    margin-left: 2px;
+    margin-top: 4px;
+    gap: 10px;
+    cursor: pointer;
+    background-color: rgb(26, 26, 112);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+.menu {
+    display: inline;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 45px;
+    margin: 5px;
+    font-weight: bolder;
+}
+
+.menu li  {
+    display: inline;
+    margin: 10px;
+
+}
+
+.menu li a {
+        padding: 15px;
+
+}
+
+
+
+
+.menu li :hover {
+    border-bottom: 3px solid white;
+
+}
+.menu li :active {
+ background-color: rgb(26, 26, 112);;
+           border-radius: 5px;
+
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.filtragem {
+    background-color: antiquewhite;
+    color: black;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin-right: 80px;
+    position: absolute;
+    width: 200px;
+}
+
+.filtragem img {
+    height: 50px;
+    width: 90px;
+    background-size: cover;
+}
+
+.filtragem a {
+    text-decoration:none;
+    font-size: 20px;
+    color: black;
+    
+
+}
+main {
+    max-width: 930px;
+    overflow: hidden;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin: 0 auto;
+
+}
+
+.principal {
+    margin: 5px;
+    height: auto;
+    width: 610px;
+
+}
+
+.area-lateral {
+    margin: 5px;
+
+    height: auto ;
+    width: 320px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+
+
+
+.blog b {
+    border: solid 2px red;
+    color: white;
+    padding: 5px;
+    background-color: red;
+    border-radius: 3px;
+    font-size: 20px;
+    
+    
+}
+
+
+
+.artigos {
+    overflow: hidden;
+    text-align: center;
+    margin: 5px;
+    margin-right: 50px;
+    border: solid rgb(245, 233, 233) 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 13px white;
+}
+
+
+.artigos img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+
+}
+
+
+.artigos p:hover {
+    border-bottom:  1px solid white;
+    
+}
+
+.artigos h4:hover {
+    border-bottom:  1px solid white;
+    
+}
+
+
+
+.artigos img:hover {
+    opacity: 0.8;
+    
+    
+}
+
+
+
+
+
+.linha {
+    height: 3px;
+    background-color: red;
+}
+
+h2 {
+    text-align: center;
+    border: solid red 4px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+.principal img {
+width: 100%;
+
+}
+
+.rodape {
+    width: 100%;
+    display: grid;
+    background-color: red;
+    height: auto;
+    text-align: center;
+}
+
+
+
+
+.logo-marca {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+
+.cookies {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.icones  {
+    display: inline;
+
+}
+
+
+.icones img {
+    width: 40px;
+    display: inline;
+    float: right;
+    cursor: pointer;
+}
+
+.icones img:hover {
+    background-color: white;
+   
+
+}
+
+.biblioteca {
+    display: grid;
+    grid-template-columns: repeat(5,300px);
+    display: block;
+    margin-left: 5%;
+
+}
+
+.biblioteca img {
+    width: 650px;
+    gap: 50px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+    box-shadow: 0 0 10px whitesmoke;
+    border-radius: 7px;
+}
+.area_sobre{
+    margin: 0 auto;
+}
+.email {
+    cursor: pointer;
+    border: solid 4px white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+.email:hover {
+    background-color: blue;
+
+}
