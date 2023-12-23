@@ -1,0 +1,82 @@
+.menu-icon {
+  display: block;
+  cursor: pointer;
+}
+
+/* Main content styles */
+main {
+  
+ 
+padding: 20px;
+}
+
+/* Carousel styles */
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+/* Article styles */
+
+art
+article {
+  margin-bottom: 20px;
+}
+
+
+}
+/* Sidebar styles */
+.area-lateral {
+  display: none;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  
+  colo
+color: #fff;
+  padding: 10px;
+  
+  t
+text-align: center;
+}
+
+.icones img {
+  width: 30px;
+  
+  margi
+margin: 0 10px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menu {
+    display: block;
+  }
+
+  .menu ul {
+    
+    fl
+flex-direction: column;
+    
+    ali
+align-items: flex-start;
+  }
+
+  
+  }
+
+  
+.menu li {
+    margin: 10px 0;
+  }
+
+  
+  }
+
+  
+.area-lateral {
+    display: block;
+  }
+}
